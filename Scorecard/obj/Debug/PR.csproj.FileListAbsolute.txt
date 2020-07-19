@@ -1,0 +1,17 @@
+c:\users\rsmith\documents\visual studio 2015\Projects\PR\PR\bin\Debug\PR.exe.config
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\bin\Debug\PR.exe
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\bin\Debug\PR.pdb
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\obj\Debug\PR.csprojResolveAssemblyReference.cache
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\obj\Debug\PR.Properties.Resources.resources
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\obj\Debug\PR.pr_helper_form.resources
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\obj\Debug\PR.csproj.GenerateResource.Cache
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\obj\Debug\PR.exe
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\obj\Debug\PR.pdb
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\bin\Debug\HtmlAgilityPack.dll
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\bin\Debug\HtmlAgilityPack.xml
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\bin\Debug\Microsoft.Vsa.dll
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\bin\Debug\Microsoft.Vsa.xml
+C:\Users\rsmith\Documents\Visual Studio 2015\Projects\PR\PR\obj\Debug\PR.csproj.PR.exe.config

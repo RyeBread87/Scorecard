@@ -1,0 +1,857 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel='Shortcut Icon' href='/favicon.ico?v=v=1.0.0.37062' />
+<link rel="search" href="https://guru/CommonControls/OpenSearch/guru.xml" type="application/opensearchdescription+xml" title="Guru" />
+
+
+		<link rel="Stylesheet" type="text/css" href='../../../Include/CSS/dialog.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Include/CSS/EpicDatepicker.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Include/CSS/BaseLayout.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Include/CSS/Stylesheet.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Images/Icons/Icons.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Include/Fonts/guruicon/style.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../ThirdParty/FontAwesome/5.0.6/web-fonts-with-css/css/fontawesome-all.min.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Images/FlagIcons/all.min.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Include/CSS/Components/Toast.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Include/CSS/Components/AlertsAndNotifications.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Include/CSS/Components/HoverBubble.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Processes/Celebrations/Celebrations.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../CommonControls/TopicBrowser/TopicBrowser.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Areas/Shared/Content/HoverCard/HoverCard.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Areas/Shared/Content/HoverCard/FillEmployeeHC.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../Include/CSS/chosen.min.css?v=1.0.0.37062' media="all" />
+	
+		<link rel="Stylesheet" type="text/css" href='../../../App_Themes/Red/Theme.css?v=1.0.0.37062' media="all" />
+	
+
+
+		<link rel="Alternate Stylesheet" type="text/css" href='../../../Include/CSS/Print.css?v=1.0.0.37062' media="print" />
+	
+
+
+		<script type="text/javascript" src='../../../ThirdParty/Polyfills/Promise/4.0.5/Promise.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../ThirdParty/Polyfills/fetch/2.0.2/fetch.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../ThirdParty/RequireJS/2.3.4/require.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Include/Scripts/RequireJS/config.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Include/Scripts/jQuery.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Include/Scripts/dialog.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Include/Scripts/jQueryUI.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Include/Scripts/jquery.tmpl.min.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Include/Scripts/jquery.ui.autocomplete.html.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Scripts/jquery.guruextensions.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Scripts/jquery.validate.min.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Include/Scripts/chosen.jquery.min.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Include/Scripts/Polyfills.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Include/Scripts/StandardUI.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Include/Scripts/Guru.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Areas/Shared/Scripts/HoverCard/HoverCard.js?v=1.0.0.37062'></script>
+	
+		<script type="text/javascript" src='../../../Areas/Shared/Scripts/HoverCard/FillEmployeeHC.js?v=1.0.0.37062'></script>
+	
+
+
+
+<script type="text/javascript">
+	var webRoot = '/';
+	var PageOptions = {
+		AutoFocusSearch: true,
+		ServerTimezoneOffset: '-05:00:00',
+		VersionQueryString: 'v=1.0.0.37062'
+	};
+	
+	var User = {
+		Apparent: {
+			ID: '11291',
+			Name: 'Ryan Smith',
+			IsConfRmUser: false
+		},
+		Real: {
+			ID: '11291',
+			Name: 'Ryan Smith'
+		}
+	};
+
+	var UserOptions = {
+		EmployeeID: User.Apparent.ID,
+		EmployeeName: User.Apparent.Name,
+		CanWebDial: true,
+		CanImpersonate: false,
+		SearchContextKey: 'All',
+		DialerPopupDuration: 60000,
+		UserName: 'rsmith',
+		ETRProxyIDList : []
+	};
+
+	var SiteMap = {
+		nodes: {"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"WhitePages","KeepParams":null,"Key":"Staff_WhitePages","Title":"White Pages","Url":"\/Staff\/WhitePages\/","Visibility":"Visible"},{"ChildNodes":null,"Description":"Find people who are interested in topics","IconClass":"YellowPages","KeepParams":null,"Key":"Staff_YellowPages","Title":"Yellow Pages","Url":"\/Staff\/YellowPages\/","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Customer","KeepParams":null,"Key":"Staff_CustomerRoles","Title":"Customer Roles","Url":"\/Staff\/CustomerRoles","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Outages","KeepParams":null,"Key":"Staff_OOO","Title":"Search Outages","Url":"\/Staff\/OutOfOffice\/","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Innages","KeepParams":null,"Key":"Staff_III","Title":"Who's In?","Url":"\/Staff\/OutOfOffice\/WhosIn.aspx","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Profile","KeepParams":null,"Key":"Staff_MyProfile","Title":"My Profile","Url":"\/Staff\/EmployeeProfile.aspx?id=me","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Calendar","KeepParams":["id"],"Key":"Staff_Events","Title":"Events","Url":"\/Staff\/Events","Visibility":"HideUnlessHere"},{"ChildNodes":null,"Description":"","IconClass":"Calendar","KeepParams":["id"],"Key":"Staff_OutlookCalendar","Title":"Outlook Calendar","Url":"\/Staff\/Outlook","Visibility":"HideUnlessHere"},{"ChildNodes":null,"Description":"","IconClass":"Profile","KeepParams":["id","username"],"Key":"Staff_EmployeeProfile","Title":"Employee Profile","Url":"\/Staff\/EmployeeProfile.aspx","Visibility":"HideUnlessHere"}],"Description":"","IconClass":"guru-icon-staff","KeepParams":null,"Key":"Staff","Title":"Staff","Url":"\/Staff\/","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"Profiles","KeepParams":["id"],"Key":"Customers_Overview","Title":"Overview","Url":"\/Customers\/Overview\/","Visibility":"HideFromDropdowns"},{"ChildNodes":null,"Description":"","IconClass":"Staff","KeepParams":["id"],"Key":"Customers_EpicStaff","Title":"Epic Staff","Url":"\/Customers\/Contacts\/Epic\/SLG","Visibility":"HideFromDropdowns"},{"ChildNodes":null,"Description":"","IconClass":"Customer","KeepParams":["id"],"Key":"Customers_CustomerStaff","Title":"Customer Staff","Url":"\/Customers\/Contacts\/Customer\/SLG","Visibility":"HideFromDropdowns"},{"ChildNodes":null,"Description":"","IconClass":"Server","KeepParams":["id"],"Key":"Customers_Technical","Title":"Technical","Url":"\/Customers\/Technical\/","Visibility":"HideFromDropdowns"},{"ChildNodes":null,"Description":"","IconClass":"CustomerAttributes","KeepParams":["id"],"Key":"Customers_Attributes","Title":"Attributes","Url":"\/Customers\/Attributes\/Index\/","Visibility":"HideFromDropdowns"},{"ChildNodes":null,"Description":"","IconClass":"Polaris","KeepParams":["id"],"Key":"Customers_Polaris","Title":"Polaris","Url":"\/Customers\/Polaris\/","Visibility":"HideFromDropdowns"},{"ChildNodes":null,"Description":"","IconClass":null,"KeepParams":["id"],"Key":"Null","Title":"Agreements","Url":"\/Customers\/Agreements\/","Visibility":"HideFromDropdowns"},{"ChildNodes":null,"Description":"","IconClass":"Polaris","KeepParams":["id"],"Key":"Customers_Notes","Title":"Notes","Url":"\/Customers\/Notes\/","Visibility":"HideFromDropdowns"},{"ChildNodes":null,"Description":"","IconClass":"Date","KeepParams":["id"],"Key":"Null","Title":"Dates","Url":"\/Customers\/Dates\/","Visibility":"Never"},{"ChildNodes":null,"Description":"","IconClass":"folderLink","KeepParams":null,"Key":"Customers_Search","Title":"Search","Url":"\/Customers\/Search\/","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"folderLink","KeepParams":null,"Key":"Customers_CSSL","Title":"Licensed Products","Url":"\/Customers\/CSSL\/","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"folderLink","KeepParams":null,"Key":"Customers_FileAccess","Title":"File Access","Url":"\/Customers\/FileAccess\/","Visibility":"Visible"}],"Description":"","IconClass":"guru-icon-medical","KeepParams":null,"Key":"Customers","Title":"Customers","Url":"\/Customers\/Search\/","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"Home","KeepParams":null,"Key":"Maps_Epic","Title":"All Maps","Url":"\/Maps\/","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Singapore","Url":"\/Maps\/?shapeid=-1&mapid=12799","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=12177","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=12178","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Annex","Url":"\/Maps\/?shapeid=-1&mapid=12176","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=39","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=40","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=41","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=42","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Heaven","Url":"\/Maps\/?shapeid=-1&mapid=14","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=43","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=44","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=45","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=46","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Isis","Url":"\/Maps\/?shapeid=-1&mapid=15","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=47","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=48","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=49","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=50","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Juno","Url":"\/Maps\/?shapeid=-1&mapid=16","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=51","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=52","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=53","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=54","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Kohoutek","Url":"\/Maps\/?shapeid=-1&mapid=17","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Yoda","Url":"\/Maps\/?shapeid=-1&mapid=18","Visibility":"Visible"}],"Description":"","IconClass":"map-1","KeepParams":null,"Key":"Null","Title":"Central Park","Url":"\/Maps\/?shapeid=-1&mapid=2","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=5906","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=5905","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=5904","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G1","Url":"\/Maps\/?shapeid=-1&mapid=5903","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G2","Url":"\/Maps\/?shapeid=-1&mapid=5902","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Barn","Url":"\/Maps\/?shapeid=-1&mapid=5901","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=6900","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Farmyard","Url":"\/Maps\/?shapeid=-1&mapid=6950","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=6401","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=6402","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=6403","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G1","Url":"\/Maps\/?shapeid=-1&mapid=6404","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G2","Url":"\/Maps\/?shapeid=-1&mapid=6405","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Shed","Url":"\/Maps\/?shapeid=-1&mapid=6400","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=7101","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=7102","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G1","Url":"\/Maps\/?shapeid=-1&mapid=7103","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G2","Url":"\/Maps\/?shapeid=-1&mapid=7104","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Stable","Url":"\/Maps\/?shapeid=-1&mapid=7100","Visibility":"Visible"}],"Description":"","IconClass":"map-1","KeepParams":null,"Key":"Null","Title":"Farm","Url":"\/Maps\/?shapeid=-1&mapid=5900","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"North (L1)","Url":"\/Maps\/?shapeid=-1&mapid=7811","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"South (L1)","Url":"\/Maps\/?shapeid=-1&mapid=7812","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Sky Level (1)","Url":"\/Maps\/?shapeid=-1&mapid=7504","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Northeast (G1)","Url":"\/Maps\/?shapeid=-1&mapid=7813","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Southeast (G1)","Url":"\/Maps\/?shapeid=-1&mapid=7977","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Southwest (G1)","Url":"\/Maps\/?shapeid=-1&mapid=7814","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Grass Level (G1)","Url":"\/Maps\/?shapeid=-1&mapid=7505","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Northwest (G2)","Url":"\/Maps\/?shapeid=-1&mapid=7815","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Northeast (G2)","Url":"\/Maps\/?shapeid=-1&mapid=8069","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Southeast (G2)","Url":"\/Maps\/?shapeid=-1&mapid=8070","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Southwest (G2)","Url":"\/Maps\/?shapeid=-1&mapid=7816","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Dirt Level (G2)","Url":"\/Maps\/?shapeid=-1&mapid=7506","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"North (G3)","Url":"\/Maps\/?shapeid=-1&mapid=7817","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"South (G3)","Url":"\/Maps\/?shapeid=-1&mapid=7818","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Rock Level (G3)","Url":"\/Maps\/?shapeid=-1&mapid=7507","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"North (G4)","Url":"\/Maps\/?shapeid=-1&mapid=7819","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"South (G4)","Url":"\/Maps\/?shapeid=-1&mapid=7820","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Magma Level (G4)","Url":"\/Maps\/?shapeid=-1&mapid=7508","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"North (G5)","Url":"\/Maps\/?shapeid=-1&mapid=7821","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"South (G5)","Url":"\/Maps\/?shapeid=-1&mapid=7822","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Core Level (G5)","Url":"\/Maps\/?shapeid=-1&mapid=7509","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Deep Space","Url":"\/Maps\/?shapeid=-1&mapid=7503","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Horseshoe North (Green)","Url":"\/Maps\/?shapeid=-1&mapid=60","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Horseshoe South (Purple)","Url":"\/Maps\/?shapeid=-1&mapid=61","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=57","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Horseshoe North (Red)","Url":"\/Maps\/?shapeid=-1&mapid=62","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Horseshoe South (Blue)","Url":"\/Maps\/?shapeid=-1&mapid=63","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=58","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Horseshoe Central","Url":"\/Maps\/?shapeid=-1&mapid=65","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Horseshoe South","Url":"\/Maps\/?shapeid=-1&mapid=66","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=59","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Voyager Hall","Url":"\/Maps\/?shapeid=-1&mapid=55","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=5587","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=5586","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Pluto North","Url":"\/Maps\/?shapeid=-1&mapid=5080","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"Pluto Central","Url":"\/Maps\/?shapeid=-1&mapid=64","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=10118","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Pluto","Url":"\/Maps\/?shapeid=-1&mapid=10117","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=68","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=67","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Epicenter","Url":"\/Maps\/?shapeid=-1&mapid=56","Visibility":"Visible"}],"Description":"","IconClass":"map-1","KeepParams":null,"Key":"Null","Title":"Learning Campus","Url":"\/Maps\/?shapeid=-1&mapid=10116","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=19","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=20","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=21","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=22","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Andromeda","Url":"\/Maps\/?shapeid=-1&mapid=6","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=23","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=24","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=25","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=26","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Borealis","Url":"\/Maps\/?shapeid=-1&mapid=7","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=27","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=28","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Cassiopeia","Url":"\/Maps\/?shapeid=-1&mapid=8","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=29","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=30","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=31","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Deneb","Url":"\/Maps\/?shapeid=-1&mapid=9","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Endor","Url":"\/Maps\/?shapeid=-1&mapid=10","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=32","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=33","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=34","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Fomalhaut","Url":"\/Maps\/?shapeid=-1&mapid=11","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=35","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=36","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=37","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=38","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Ganymede","Url":"\/Maps\/?shapeid=-1&mapid=12","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Zodiac ","Url":"\/Maps\/?shapeid=-1&mapid=13","Visibility":"Visible"}],"Description":"","IconClass":"map-1","KeepParams":null,"Key":"Null","Title":"Prairie","Url":"\/Maps\/?shapeid=-1&mapid=1","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=10088","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=10089","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G1","Url":"\/Maps\/?shapeid=-1&mapid=10090","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G2","Url":"\/Maps\/?shapeid=-1&mapid=10091","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Alice","Url":"\/Maps\/?shapeid=-1&mapid=10085","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=11151","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=11150","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G1","Url":"\/Maps\/?shapeid=-1&mapid=11149","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G2","Url":"\/Maps\/?shapeid=-1&mapid=11148","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Oz","Url":"\/Maps\/?shapeid=-1&mapid=10086","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=11615","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=11614","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=11613","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G1","Url":"\/Maps\/?shapeid=-1&mapid=11612","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Grimm","Url":"\/Maps\/?shapeid=-1&mapid=10087","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=12292","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=12291","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=12290","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Chocolate Factory","Url":"\/Maps\/?shapeid=-1&mapid=12289","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Monster Land","Url":"\/Maps\/?shapeid=-1&mapid=12778","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"West (G1)","Url":"\/Maps\/?shapeid=-1&mapid=12852","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-4","KeepParams":null,"Key":"Null","Title":"East (G1)","Url":"\/Maps\/?shapeid=-1&mapid=12854","Visibility":"Visible"}],"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G1","Url":"\/Maps\/?shapeid=-1&mapid=12851","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Jabberwocky","Url":"\/Maps\/?shapeid=-1&mapid=12850","Visibility":"Visible"}],"Description":"","IconClass":"map-1","KeepParams":null,"Key":"Null","Title":"Storybook","Url":"\/Maps\/?shapeid=-1&mapid=10084","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=9672","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=9671","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=9670","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Classroom","Url":"\/Maps\/?shapeid=-1&mapid=9669","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=9270","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=9269","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=9268","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Great Hall","Url":"\/Maps\/?shapeid=-1&mapid=9267","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G1","Url":"\/Maps\/?shapeid=-1&mapid=9014","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G2","Url":"\/Maps\/?shapeid=-1&mapid=9015","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"King's Cross","Url":"\/Maps\/?shapeid=-1&mapid=8574","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=8580","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=8579","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=8578","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=8577","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Library","Url":"\/Maps\/?shapeid=-1&mapid=8576","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=8102","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=8103","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=8104","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=8105","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Observatory ","Url":"\/Maps\/?shapeid=-1&mapid=8108","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=10669","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=10668","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=10667","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Fortress","Url":"\/Maps\/?shapeid=-1&mapid=10083","Visibility":"Visible"}],"Description":"","IconClass":"map-1","KeepParams":null,"Key":"Null","Title":"Wizards Academy","Url":"\/Maps\/?shapeid=-1&mapid=8107","Visibility":"Visible"}],"Description":"","IconClass":"map-7","KeepParams":null,"Key":"Null","Title":"Verona","Url":"\/Maps\/?shapeid=-1&mapid=10099","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 1","Url":"\/Maps\/?shapeid=-1&mapid=12093","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=12094","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Freshford House","Url":"\/Maps\/?shapeid=-1&mapid=12092","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Hartwell House","Url":"\/Maps\/?shapeid=-1&mapid=12861","Visibility":"Visible"}],"Description":"","IconClass":"map-1","KeepParams":null,"Key":"Null","Title":"Bristol","Url":"\/Maps\/?shapeid=-1&mapid=12091","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Copenhagen","Url":"\/Maps\/?shapeid=-1&mapid=7970","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 5","Url":"\/Maps\/?shapeid=-1&mapid=8052","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 4","Url":"\/Maps\/?shapeid=-1&mapid=77","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 3","Url":"\/Maps\/?shapeid=-1&mapid=12918","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=5728","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level G","Url":"\/Maps\/?shapeid=-1&mapid=78","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Den Bosch","Url":"\/Maps\/?shapeid=-1&mapid=5","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Dubai","Url":"\/Maps\/?shapeid=-1&mapid=5045","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 11","Url":"\/Maps\/?shapeid=-1&mapid=11071","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 10","Url":"\/Maps\/?shapeid=-1&mapid=11070","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Finland","Url":"\/Maps\/?shapeid=-1&mapid=11069","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Melbourne","Url":"\/Maps\/?shapeid=-1&mapid=8086","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 4","Url":"\/Maps\/?shapeid=-1&mapid=10081","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"map-3","KeepParams":null,"Key":"Null","Title":"Level 2","Url":"\/Maps\/?shapeid=-1&mapid=11067","Visibility":"Visible"}],"Description":"","IconClass":"map-2","KeepParams":null,"Key":"Null","Title":"Rochester","Url":"\/Maps\/?shapeid=-1&mapid=10080","Visibility":"Visible"}],"Description":"","IconClass":"guru-icon-location","KeepParams":null,"Key":"Maps","Title":"Maps","Url":"\/Maps\/","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"Home","KeepParams":null,"Key":"Travel_Home","Title":"Home","Url":"\/TravelRequest\/Home\/TravelHome.aspx","Visibility":"Visible"},{"ChildNodes":null,"Description":"Request a trip","IconClass":"Airplane","KeepParams":null,"Key":"Travel_RequestTrip","Title":"Request Trip","Url":"\/Travel\/Editor\/TripCreation","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"CalendarAdd","KeepParams":null,"Key":"Travel_CreateTrip","Title":"Create Trip Plan","Url":"\/TravelRequest\/Home\/InstallEditor.aspx","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Search","KeepParams":null,"Key":"Travel_Search","Title":"Search","Url":"\/TravelRequest\/Home\/AdhocSearch.aspx","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Calendar","KeepParams":null,"Key":"Travel_NoTravel","Title":"No Travel Days","Url":"\/Home\/NoTravelDays.aspx","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Help","KeepParams":null,"Key":"Travel_FAQ","Title":"FAQ","Url":"https:\/\/wiki.epic.com\/main\/Travel\/ETR_Processes_FAQs","Visibility":"HideFromDropdowns"}],"Description":"","IconClass":"guru-icon-airplane","KeepParams":null,"Key":"Travel","Title":"Travel","Url":"\/TravelRequest\/Home\/TravelHome.aspx","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"Home","KeepParams":null,"Key":"Processes_Dashboard","Title":"Dashboard","Url":"\/Processes\/","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"e.g. vacation, flex holiday, FMLA","IconClass":null,"KeepParams":null,"Key":"Null","Title":"Request Time Off","Url":"\/Events\/Absence\/New","Visibility":"Visible"},{"ChildNodes":null,"Description":"e.g. sick leave, temporarily OOO","IconClass":null,"KeepParams":null,"Key":"Null","Title":"Create An OOO Event","Url":"\/Staff\/OutOfOffice\/EditEvent.aspx","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":null,"KeepParams":null,"Key":"Null","Title":"View Your EOM Balances","Url":"\/Processes\/EOMBalances\/EndOfMonth.aspx","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":null,"KeepParams":null,"Key":"Null","Title":"Request Your Sabbatical","Url":"\/Events\/Sabbaticals\/NewRequest","Visibility":"Visible"}],"Description":"Request time off (e.g. vacation, flex holiday, FMLA)","IconClass":null,"KeepParams":null,"Key":"Processes_Outages","Title":"Outages","Url":"\/Events\/Absence\/New","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":null,"KeepParams":null,"Key":"Processes_BusinessCardsRequest","Title":"Business Cards","Url":"\/Processes\/BusinessCards\/BusinessCardsRequest","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Celebrations","KeepParams":null,"Key":"Processes_Celebration","Title":"Celebrations","Url":"\/Processes\/Celebrations\/","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Flags","KeepParams":null,"Key":"Processes_Flags","Title":"Flags & App Alerts","Url":"\/Processes\/Flags\/","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"PDFund","KeepParams":null,"Key":"Processes_PDFund","Title":"PD Fund","Url":"\/Processes\/PDFund\/","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":null,"KeepParams":null,"Key":"Processes_PurchaseRequest_New","Title":"New Request","Url":"\/PR\/Request","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":null,"KeepParams":null,"Key":"Processes_PurchaseRequest_Review","Title":"PR Review","Url":"\/PR\/Review","Visibility":"Never"},{"ChildNodes":null,"Description":"","IconClass":null,"KeepParams":null,"Key":"Processes_PurchaseRequest_Search","Title":"Search","Url":"\/PR\/Search","Visibility":"Visible"}],"Description":"","IconClass":null,"KeepParams":null,"Key":"Processes_PurchaseRequest","Title":"Purchase Request","Url":"\/PR\/Request","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":null,"KeepParams":null,"Key":"Processes_VirtualPhones","Title":"Virtual Phones","Url":"\/Processes\/VirtualPhones","Visibility":"Visible"}],"Description":"","IconClass":"guru-icon-process","KeepParams":null,"Key":"Processes","Title":"Processes","Url":"\/Processes\/","Visibility":"Visible"},{"ChildNodes":[{"ChildNodes":null,"Description":"","IconClass":"Computer","KeepParams":null,"Key":"Tools_Computer","Title":"Computer Tools","Url":"\/Tools.aspx","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":"Car","KeepParams":null,"Key":"Tools_Cars","Title":"Message About a Car","Url":"\/Staff\/LicensePlates\/","Visibility":"Visible"},{"ChildNodes":null,"Description":"","IconClass":null,"KeepParams":null,"Key":"References_Glossary","Title":"Glossary","Url":"\/References\/Glossary\/","Visibility":"Visible"}],"Description":"","IconClass":"guru-icon-tools","KeepParams":null,"Key":"Tools","Title":"Tools","Url":"\/Tools.aspx","Visibility":"Visible"}],"Description":"","IconClass":null,"KeepParams":null,"Key":"Null","Title":"","Url":"","Visibility":"Visible"},
+		showSubMenu: false,
+		section: 'Customers',
+		page: 'Customers_Overview'
+	};
+
+	//HoverCard setup------------------------------------------
+	var HoverCardDelay = 250;
+	//-----------------------------------------------------------------
+
+	jQuery(document).ready(document_jQuery_OnReady);
+
+</script>
+
+<script id="tmplMainMenu" type="text/x-jquery-tmpl">
+<ul role="menubar" class="static level1">
+	{{each ChildNodes}}
+		<li role="menuitem" guru:menukey="${Key}" guru:menulevel="${$item.level}" class="no-dropdown {{if (Key == $item.section)}}selected{{/if}}">
+			<a href="{{tmpl($value) "#tmplMenuItemLink"}}" title="${Description}">
+				<div class="mainmenu-item">
+					<span class="mm-icon ${IconClass}"></span>
+					<span class="mm-text">${Title}</span>
+				</div>
+			</a>
+		</li>
+	{{/each}}
+</ul>
+<div class="clear"></div>
+</script>
+
+<script id="tmplDropdownMenu" type="text/x-jquery-tmpl">
+{{if ChildNodes}}
+	<ul class="dynamic level${$item.level}">
+		{{tmpl(ChildNodes, {level: $item.level + 1}) "#tmplDropdownMenuItem"}}
+	</ul>
+{{/if}}
+</script>
+
+<script id="tmplDropdownMenuItem" type="text/x-jquery-tmpl">
+	{{if Visibility == "Visible"}}
+	<li role="menuitem">
+		<a href="{{tmpl "#tmplMenuItemLink"}}" class="dropdown-item ${IconClass}" title="${Description}">
+			${Title}
+			{{if ChildNodes}}<span class="more">&#9658;</span>{{/if}}
+		</a>
+		
+		{{if ChildNodes}}{{tmpl "#tmplDropdownMenu"}}{{/if}}
+	</li>
+	{{/if}}
+</script>
+
+<script id="tmplSubmenu" type="text/x-jquery-tmpl">
+<ul role="menubar" class="static level1">
+	{{each ChildNodes}}
+	{{if ((Visibility != "HideUnlessHere" || Key == $item.page || Key == $item.section) && Visibility != "Never")}}
+	<li role="menuitem" {{if (Key == $item.page)}}class="selected"{{/if}}>
+		<a href="{{tmpl($value) "#tmplMenuItemLink"}}" title="${Description}" class="theme-border">
+			<div class="submenu-item ${IconClass}">
+				<div class="mm-text">${Title}</div>
+			</div>
+		</a>
+	{{/if}}
+	{{/each}}
+</ul>
+<div class="clear"></div>
+</script>
+
+<script id="tmplMenuItemLink" type="text/x-jquery-tmpl">
+${Url}{{if KeepParams}}{{if Url.indexOf("?") < 0}}?{{else}}&{{/if}}${navMenu_MenuItem_LinkParams(KeepParams)}{{/if}}
+</script>
+
+<script id="tmplSearchResultsLabel" type="text/x-jquery-tmpl">
+<div class="${ContextKey}" value="${aceSearch_Match_SanitizeMatchValue(Name)}" rowIndex="${jQuery.trim($item.Index)}">
+	{{if $item.SwitchType == "all"}}
+		{{tmpl(aceSearch_AutoCompleteItem_Label_All_PreRender($data)) "#tmplSearchResultAll"}}
+	{{else $item.SwitchType == "customers"}}
+		{{tmpl(aceSearch_AutoCompleteItem_Label_Customer_PreRender($data)) "#tmplSearchResultCustomers"}}
+	{{else $item.SwitchType == "employees"}}
+		{{tmpl(aceSearch_AutoCompleteItem_Label_Employee_PreRender($data)) "#tmplSearchResultEmployees"}}
+	{{else $item.SwitchType == "rooms"}}
+		{{tmpl(aceSearch_AutoCompleteItem_Label_Room_PreRender($data)) "#tmplSearchResultRooms"}}
+	{{else $item.SwitchType == "recommendedlinks"}}
+		{{tmpl($data) "#tmplSearchResultRecommendedLinks"}}
+	{{else}}
+		${Name}
+	{{/if}}
+	<div class="clear"></div>
+</div>
+</script>
+
+<script id="tmplSearchResultAll" type="text/x-jquery-tmpl">
+	<div class="left"><span class="fake-link SearchPageLink">
+		<span class="guru-icon-search"></span>
+		<span class="fake-link-text">${Name} &#9658;</span>
+	</span></div>
+	<div class="right" style="display: none;" id="call">Press Ctrl+Enter to call employees</div>
+</script>
+
+<script id="tmplSearchResultRecommendedLinks" type="text/x-jquery-tmpl">
+		<a href="${Url}">
+			<span class="Search-RecommendedLinks"><span class="font-icon guru-icon-checkmark"></span></span>
+			<span class="font-icon-text">${Name}</span>
+		</a>
+</script>
+
+<script id="tmplSearchResultEmployees" type="text/x-jquery-tmpl">
+	<div class="picture">
+		<img src="/Shared/Images/StaffPhoto/id/${ID}"></div>
+	<div class="text">
+		<div class="right">
+			{{if MapName}}
+				<a class="office" title="Find this person's office on the map" href="${WebRoot}Maps/?name=${MapName}">${MapName} <span class="Map Icon IconRight"></span></a>
+			<!-- .office -->
+			{{/if}}
+			
+			{{if Email}}
+			<div class="uii-info-item email">
+				<a href="mailto:${Email}" title="Email">${Email}<span class="Email Icon IconRight"></span></a>
+			</div>
+			<!-- .email -->
+			{{/if}} 
+			
+			{{if Pager}}
+			<div class="uii-info-item pager">
+				{{if PagerLink.Url }}
+				<a href="${PagerLink.Url}" title="${PagerLink.Title}">
+					${PagerLink.Caption} <span class="PageSmall Icon IconRight"></span></a>
+				{{else}}
+					${PagerLink.Caption}
+				{{/if}}
+			</div>
+			<!-- .pager -->
+			{{/if}}
+		</div>
+		<!-- .right -->
+		<!-- Name, aliases, employee type flags, OOO icon -->
+		<div>
+			<span class="name">
+				<a href="${Url}">${Name}{{if Alias}} (${Alias}){{/if}}</a>
+			</span>
+			<!-- .name -->
+			<span>
+				{{if IsBoost}}
+				<span title="Boost Services" class="Boost Icon"></span>
+				{{/if}}
+				{{if FlagClass && !IsBoost}}
+					<span class="${FlagClass}"></span>
+					<span>${LocalTime}</span>
+					<!-- .employeeType -->
+				{{/if}}
+				{{if OutageIcon}} 
+					<span class="${OutageIcon}" title="${OutageToolTip}"><span class="Icon"></span></span>
+				{{/if}}
+
+			</span>
+
+			{{if Extension.length}}
+			<span>
+				{{if (UserOptions && UserOptions.CanWebDial) }}
+				<a href="javascript:void(0);" title="Call this person" onclick="(arguments[0] || window.event).stopPropagation(); CallNumber(${formatAsJavascriptStringParam(Extension)}, ${formatAsJavascriptStringParam(Name)}, 'Work', true);"><span class="Phone Icon"></span>${FormattedExtension}</span></a>
+				{{else}}
+				<span class="no-link">x${FormattedExtension}</span>
+				{{/if}}
+			</span>
+			{{/if}}
+			<!-- .extension -->
+		</div>
+		<!-- name, etc -->
+		<div class="info">
+			<div>
+				${Team}{{if Team && Role}}, {{/if}} ${Role} 
+			</div>
+			<!-- .roleteam -->
+			<div class="secondaryInfo">
+				{{if AdminInfo}} <span class="AdminInfo uii-info-item">${AdminInfo}</span> {{/if}}
+				{{if Tenure}} <span class="tenure uii-info-item">${Tenure}</span> {{/if}}
+			</div>
+			<!-- .secondaryInfo -->
+		</div>
+		<!-- .info -->
+	</div>
+	<!-- .text -->
+</script>
+
+<script id="tmplSearchResultCustomers" type="text/x-jquery-tmpl">
+		<div class="right">
+			<span><a href="${WebRoot}Customers/Contacts/Epic/SLG/${ID}"><span class="Staff Icon"></span>Epic Staff</a></span>
+			<span><a href="${WebRoot}Customers/Dates/SLG/${ID}"><span class="Sonar Icon"></span>Sonar</a></span>
+			<span><a href="${WebRoot}Customers/Applications/SLG/${ID}"><span class="Computer Icon"></span>Application List</a></span>
+			<span><a href="${WebRoot}Customers/Contacts/Customer/SLG/${ID}"><span class="Customer Icon"></span>Customer Staff</a></span>
+			<span><a href="${WebRoot}Customers/Polaris/SLG/${ID}"><span class="Polaris Icon"></span>Polaris</a></span>
+			<span><a href="${WebRoot}Customers/ApplicationDetails/SLG/${ID}"><span class="Search Icon"></span>App Details</a></span>
+			<span><a href="${WebRoot}Customers/Attributes/Index/SLG/${ID}"><span class="CustomerAttributes Icon"></span>Attributes</a></span>
+			<span><a href="${WebRoot}Customers/Technical/SLG/${ID}"><span class="Server Icon"></span>Technical</a></span>
+			{{if BulletinBoardURL}}
+				<span><a href="${BulletinBoardURL}"><span class="BulletinBoard Icon"></span>Bulletin Board</a></span>
+			{{/if}}
+		</div>
+		<div class="picture has-font-icon">
+			<span class="font-icon guru-icon-medical"></span>
+		</div>
+		<div class="left">
+			<div>
+				<a class="name" href="${WebRoot}Customers/Overview/SLG/${ID}">${Name}</a>
+			</div>
+			<div class="info">
+				{{if AdminInfo}}
+					<span class="AdminInfo">${AdminInfo}</span>
+				{{/if}}
+				${City}{{if City && State}}, ${State}{{/if}}{{if City && Country && Country != 'US' && Country != 'United States'}}, ${Country}{{/if}}&nbsp;
+				{{if CountryCode && CountryCode != 'US'}}<img src="/Images/FlagIcons/blank.gif" class="flag--xs flag-${CountryCode.toLowerCase()}" title="${Country}" alt="${Country}" />{{/if}}
+				{{if IsAffiliate}}<img title="Connect Organization" style="height:16px" src="${WebRoot}images/icons/Affiliates.gif?v=1.0.0.37062" /> {{/if}}
+				{{if IsHosted}}<img title="Hosted Organization" style="margin-left:4px; height:16px" src="${WebRoot}images/EpicHosted.png?v=1.0.0.37062" />
+				{{else IsDisasterRecovery}}<img title="Disaster Recovery" style="margin-left:4px; height:16px" src="${WebRoot}images/EpicDisasterRecovery.png?v=1.0.0.37062" /> {{/if}}
+			</div> <!-- .info -->
+		</div> <!-- .left -->
+</script>
+
+<script id="tmplSearchResultRooms" type="text/x-jquery-tmpl">
+	<div class="picture has-font-icon">
+		<span class="font-icon guru-icon-location"></span>
+	</div>
+	<div class="right">
+		<a href="${WebRoot}Maps/?name=${ID}">
+			${ID} <span class="Map Icon IconRight"></span>
+		</a>
+
+	</div> <!--  .right -->
+	<div class="left">
+	<div>
+		<a class="name" href="${WebRoot}Maps/?name=${ID}">${Name}</a>
+
+		
+		{{if Extension.length}}
+		<span>
+			{{if (UserOptions && UserOptions.CanWebDial) }}
+			<a href="javascript:void(0);" onclick="(arguments[0] || window.event).stopPropagation(); CallNumber(${formatAsJavascriptStringParam(Extension)}, ${formatAsJavascriptStringParam(Name)}, 'Work', true);"><span class="Phone Icon"></span>${FormattedExtension}</span></a>
+			{{else}}
+			<span class="no-link">x${FormattedExtension}</span>
+			{{/if}}
+		</span>
+		{{/if}}
+
+	</div>
+		<div class="info"> <!--  Info -->
+			{{if Usage}}Room type: ${Usage}{{/if}}
+			{{if Capacity}}(Capacity: ${Capacity}){{/if}}
+			
+			<br />
+			{{if AdminInfo}}
+				<span class="AdminInfo">${AdminInfo}</span>
+			{{/if}}
+		</div> <!--  .info -->
+	</div> <!--  .left -->
+</script>
+
+<script id="tmplWebDialer" type="text/x-jquery-tmpl">
+<div id="callConfirmation" class="callConfirmation">
+	<div class="title">Ring, Ring!</div>
+	<div class="subtitle">Calling <b>${Callee}</b></div>
+		<div class="buttons">
+			<input type="button" value="OK" onclick="HideElement('callConfirmation')" />
+			<input type="button" value="Hang Up" onclick="HangUpCall('${DevName}', 'callConfirmation')" />
+		</div>
+	<span class="info"">Learn more by visiting <a target="_blank" href="https://wiki.epic.com/main/Guru/Webdialer">the wiki</a>.</span>
+</div>
+</script>
+
+<script id="tmplWebDialerError" type="text/x-jquery-tmpl">
+<div id="callError" class="callConfirmation callError">
+	<div class="title">Error</div>
+	<div class="subtitle">${Error}</div>
+		<div class="buttons">
+			<input type="button" value="Close" onclick="HideElement('callConfirmation')" />
+		</div>
+	<span class="info"">Learn more by visiting <a target="_blank" href="https://wiki.epic.com/main/Guru/Webdialer">the wiki</a>.</span>
+</div>
+</script>
+
+<script id="tmplImpersonate" type="text/x-jQuery-tmpl">
+	<div class="panes">
+		<div class="pane">
+			<h2>Impersonate employee:</h2>
+			<span class="search-employee">
+				<input type="text" id="impersonationTarget" value="" data-emp-id=""/><span id="btnImpersonateEmployee" title="Click to impersonate" class="arrow"></span><br/></span>
+			{{if recentlyImpersonated.length > 0}}
+			<ul id="recentlyImpersonated">
+				{{if User.Apparent.ID != User.Real.ID}}
+				<li data-emp-id="${User.Real.ID}"><a href="javascript:;" title="Click to unimpersonate&#13;&nbsp;{{if User.Apparent.IsConfRmUser}}Conference Room User{{else}}${User.Apparent.Name} [${User.Apparent.ID}]{{/if}}">${User.Real.Name}</a></li>
+				{{/if}}
+				{{each(index, user) recentlyImpersonated}}
+				{{if User.Apparent.ID != user.ID}}
+				<li data-emp-id="${user.ID}"><a href="javascript:;" title="Click to impersonate&#13;&nbsp;${user.Name} [${user.ID}]">${user.Name}</a></li>
+				{{/if}}
+				{{/each}}
+			</ul>
+			{{/if}}
+		</div>
+		<div class="pane">
+			<h2>Simulate conference room user:</h2>
+			<label><span>With&nbsp;</span>
+			<span class="ToggleButtons">
+				<label>
+					<input type="radio" name="mapped-drives" value="true" checked=true />
+					<span>mapped</span>
+				</label>
+				<label>
+					<input type="radio" name="mapped-drives" value="false" />
+					<span>unmapped</span>
+				</label>
+			</span>
+			<span>network drives</span></label>
+			<span id="btnImpersonateConfRm" title="Click to simulate" class="arrow"></span><br/>
+			<span class="small">(Simulation of conference rooms may not be entirely accurate.)</span>
+		</div>
+   </div>
+</script>
+
+	<script src="/Include/Scripts/GuruUtilities.js?v=1.0.0.37062" type="text/javascript"></script>
+	
+	<script src="/Areas/Shared/Scripts/Gidgets/Gidgets.js?v=1.0.0.37062" type="text/javascript"></script>
+	<script src="/Areas/Shared/Scripts/Gidgets/GidgetTypes.js?v=1.0.0.37062" type="text/javascript"></script>
+	<link rel="Stylesheet" href="/Areas/Shared/Content/Gidgets/Gidgets.css?v=1.0.0.37062" type="text/css" />
+
+	
+	
+
+	<script type="text/javascript">
+		var _customerSLGID = 1059;
+	</script>
+
+	<link rel="Stylesheet" href="/Areas/Customers/Content/Shared/Site.css?v=1.0.0.37062" type="text/css" />
+	<link rel="Stylesheet" href="/Customers/Customers.css?v=1.0.0.37062" type="text/css" />
+	<link rel="Stylesheet" href="/Areas/Shared/Content/HoverCard/FillHintHC.css?v=1.0.0.37062" type="text/css" />
+	<link rel="Stylesheet" href="/Include/CSS/SlimDialog.css?v=1.0.0.37062" type="text/css" />
+	
+	<link rel="Stylesheet" type="text/css" media="all" href="/Areas/Shared/Content/Contacts/Contacts.css?v=1.0.0.37062" />
+	<link rel="Stylesheet" type="text/css" media="all" href="/Areas/Shared/Content/ListFilterHandler/ListFilterHandler.css?v=1.0.0.37062" />
+	<link rel="Stylesheet" type="text/css" media="all" href="/Areas/Customers/Content/Applications/StyleSheet.css?v=1.0.0.37062" />
+	<link rel="Stylesheet" type="text/css" media="all" href="/Areas/Customers/Content/Flags/StyleSheet.css?v=1.0.0.37062" />
+	<link rel="Stylesheet" type="text/css" media="all" href="/Areas/Customers/Content/Overview/Summary.css?v=1.0.0.37062" />
+
+	<script src="/ThirdParty/CKEditor/4.8.0/ckeditor.js" type="text/javascript"></script>
+	<script src="/Areas/Shared/Scripts/Chronicles/Chrontrol.js?v=1.0.0.37062" type="text/javascript"></script>
+	<script src="/Areas/Shared/Scripts/Contacts/Contacts.js?v=1.0.0.37062" type="text/javascript"></script>
+	<script src="/Areas/Shared/Scripts/ListFilterHandler/ListFilterHandler.js?v=1.0.0.37062" type="text/javascript"></script>
+	<script src="/Areas/Customers/Scripts/Applications/ApplicationList.js?v=1.0.0.37062" type="text/javascript"></script>
+	<script src="/Areas/Customers/Scripts/Overview/TripGidget.js?v=1.0.0.37062" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		// initialize the page on document ready
+		document.addEventListener('DOMContentLoaded', function () {
+			
+				require(['d3'],
+					function (d3) {
+						$("#content").gidgets({"__type":"\u003c\u003ef__AnonymousType3`2[[Epic.Guru.Gidgets.GidgetColumnGroupCollection, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","Groups":{"__type":"Epic.Guru.Gidgets.GidgetColumnGroupCollection, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ColumnGroups":[{"__type":"Epic.Guru.Gidgets.GidgetColumnGroup, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewMainColumnGroup","Columns":[{"__type":"Epic.Guru.Gidgets.GidgetColumn, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewMainColumn","Gidgets":[{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewDetails","Title":"Details","Description":"Information collected about this organization\u0027s structure and operation.","DefaultColumnID":"CustomerOverviewMainColumn","DefaultPosition":0,"Type":"Customers.Overview.Details","StaticParameter":"","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"DetailsBlock","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":[],"DynamicParameterValues":[],"InitializationParameter":"","InitialData":"{\"SLGID\":1059,\"OtherNames\":[\"The Great Ormond Street Hospital for Children NHS Foundation Trust\",\"GOSH\",\"GREAT ORMOND STREET HOSPITAL\"],\"Location\":\"London, England, United Kingdom\",\"SitesIn\":[\"England\"],\"OrganizationStructures\":[{\"ID\":13072,\"Value\":\"Hospital and Clinic Facilities\"}],\"OrganizationTypes\":[{\"ID\":2709,\"Value\":\"Research\"},{\"ID\":3622,\"Value\":\"Pediatric-only org\"}],\"CogitoDashboardUrl\":\"https://dashboards.epic.com/benchmarking/overview?id=1059\\u0026isSlg=1\",\"ExecutivePacketUrl\":\"http://execpacket.epic.com/Customer/1059\",\"CustomerSince\":\"May 2017\",\"HimssStatuses\":[],\"DaviesAwardYears\":[],\"CurrentVersion\":\"August 2018\",\"CurrentVersionID\":\"1195\",\"NextExpectedVersion\":\"August 2019\",\"NextExpectedVersionID\":\"1234\",\"UpgradeDate\":\"Sep 22, 2019\",\"PlannedUpgrades\":[{\"SLGID\":1059,\"CustomerName\":\"Great Ormond Street Hospital for Children\",\"VersionID\":0,\"VersionName\":null,\"VersionNum\":0,\"UpgradeDate\":\"\\/Date(-62135575200000)\\/\",\"IsSkipped\":false,\"NumVersionsInUpgrade\":1,\"UpgradeDateDisplay\":\"\"}],\"HospitalCount\":1,\"ClinicCount\":0,\"PhysicianCount\":\"300\",\"PhysicianEmployedPercentageCount\":null,\"EpicBranded\":null,\"MyChartBranded\":null,\"MyChartURL\":null,\"LastCommunityLibraryExtract\":\"\",\"NextCommunityLibraryExtract\":\"\",\"IsCommunityLibraryExtractLate\":false,\"EpicCareLinkBranded\":null,\"EpicCareLinkURL\":null,\"OPVisitCount\":\"258,036\",\"IPDayCount\":\"98\",\"EDVisitCount\":\"0\",\"LicensedBedCount\":\"363\",\"OperatingRoomCount\":\"27\",\"StaffedBedCount\":\"363\",\"ResidencyFocus\":null,\"ParentSLGID\":null,\"ParentName\":null,\"SupportSLG\":null,\"SharesEpicWith\":[],\"SupportedSLGs\":[],\"ChildSLGs\":[],\"AffiliateSLGs\":[],\"IsAffiliate\":false,\"CCAccreditationStatus\":null,\"CCOrganizationCount\":\"\",\"CCPhysicianCount\":\"\",\"CCStaffedBedCount\":\"\",\"HIMSSAnalyticsEntities\":[],\"NovaUrl\":\"https://nova.epic.com/\",\"CustomerName\":\"Great Ormond Street Hospital for Children\",\"LegacyAmbSystems\":[\"homegrown\",\" paper\"],\"LegacyInpSystems\":[\"iSoft\",\" homegrown\",\" paper\",\" HP CareVue Chart\"],\"LegacyHBProduct\":[],\"LegacyPBProduct\":[]}","State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"},{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewHospitalInfo","Title":"Hospital Information","Description":"Display all hospitals for this customer.","DefaultColumnID":"CustomerOverviewMainColumn","DefaultPosition":1,"Type":"Customers.Overview.HospitalInfo","StaticParameter":"","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":["customerID"],"DynamicParameterValues":["499"],"InitializationParameter":"","InitialData":{"__type":"\u003c\u003ef__AnonymousType101`8[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Collections.Generic.List`1[[Epic.Guru.Customers.HospitalInfo, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Collections.Generic.List`1[[Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Collections.Generic.List`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Collections.Generic.IEnumerable`1[[\u003c\u003ef__AnonymousType8`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Epic.Guru.Utilities.ListFilter.ListFilterPreferences, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null]], Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","SLGID":1059,"Hospitals":[{"__type":"Epic.Guru.Customers.HospitalInfo, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":2223,"Name":"Great Ormond Street Hospital","ParentSLGID":1059,"HIMSSAnalyticsUniqueID":0,"IsOnEpic":2,"IsOnEpicYesNo":"Will be","IsDeleted":false,"HospitalTypes":[{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":7,"Name":"Pediatric","Description":""}],"ZADID":1006886,"NumStaffedBeds":363,"NumLicensedBeds":363,"GoLiveDate":null,"HospitalTypesDisplayString":"Pediatric","Location":{"__type":"SharedFunctions.Track.Models.LocationModel, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ZADID":1006886,"Name":"London, England, United Kingdom","ShortName":"London","IsActive":true,"ParentID":20339,"Type":1,"Code":null,"CountryCode":"GB","StateProvinceCode":"England","LocationType":1,"MediumName":"London, England, United Kingdom","IsInUS":false},"City":"London","State":"England","Country":"GB"}],"HospitalTypes":[{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":2,"Name":"Academic","Description":"This organization has at least one residency program and supports residents and medical students in their learning, but is not tightly linked with one medical school."},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":16,"Name":"Catholic","Description":"A not-for-profit Catholic health system, sponsor, or free-standing Catholic entity. This organization promotes or fosters the values of the Catholic health ministry."},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":5,"Name":"Community","Description":"Smaller hospital, typically focuses on primary care and has a limited number of specialties; probably has \"Community Hospital\" in the name."},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":3,"Name":"Connect","Description":"Connect hospital"},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":4,"Name":"County","Description":"This organization is owned by the county (i.e., Hennepin County)."},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":6,"Name":"Critical Access","Description":"This organization has a critical access hospital"},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":17,"Name":"Home Health/Hospice Agency","Description":"This organization provides home health or hospice care"},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":9,"Name":"Long-Term Acute Care","Description":"LTACH: This organization provides care to individuals with clinically complex problems that need hospital-level care for relatively extended periods of time but are not sick enough to remain in the hospital. These might be freestanding hospitals, or units within a hospital."},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":10,"Name":"Merger – on different instance","Description":"For hospitals"},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":1,"Name":"N/A","Description":"You’ve verified that none of the above org types apply to your customer."},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":7,"Name":"Pediatric","Description":"This organization has one or more children’s hospitals, but they also have facilities where adults are treated. Please include only organizations that have children’s hospitals – having a pediatric unit in a regular hospital does not count."},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":11,"Name":"Public Health Lab","Description":"This organization protects  the public; preventive rather than curative; government hospital."},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":12,"Name":"Research","Description":"This organization does any type of clinical research"},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":15,"Name":"Safety Net","Description":"This organizaiton provides a significant level of care to the indigent population."},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":13,"Name":"Skilled Nursing Facility","Description":"SNF: This organization provides long-term nursing care, rehabilitation, and other services for patients who are chronically ill but do not require hospital-level care. These might be freestanding hospitals, or units within a hospital"},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":8,"Name":"Specialty","Description":"This organization has a hospital that focuses solely on one specialty (use comments to specify which specialty)"},{"__type":"Epic.Guru.Customers.HospitalType, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":14,"Name":"Women \u0026 Children\u0027s","Description":"This organization is specially for womens and children"}],"OnEpicOptions":[{"__type":"Epic.Guru.Customers.OnEpicOption, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":0,"Value":"No"},{"__type":"Epic.Guru.Customers.OnEpicOption, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":1,"Value":"Yes"},{"__type":"Epic.Guru.Customers.OnEpicOption, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":2,"Value":"Will be"}],"HAEntities":[],"HasEditPermission":false,"ListFilterID":"CustomerHospitals","ListFilterPreferences":{"__type":"Epic.Guru.Utilities.ListFilter.ListFilterPreferences, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerHospitals","ShowFilters":false,"CurrentIndex":null,"SortableTableShowAll":false,"SortableTableSortColumn":"IsOnEpicYesNo","SelectedFilters":null}},"State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"},{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewBFFUpdate","Title":"BFF Update","Description":"Display a summary of what\u0027s new with this customer from their BFF.","DefaultColumnID":"CustomerOverviewMainColumn","DefaultPosition":2,"Type":"Customers.Overview.BFFUpdate","StaticParameter":"","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":[],"DynamicParameterValues":[],"InitializationParameter":"","InitialData":{"__type":"\u003c\u003ef__AnonymousType100`7[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","HappinessIcon":"/images/rating-half-green.png","HappinessTitle":"Half Green: Satisfactory","HappinessDetails":"Great Ormond Street Hospital goes live on April 19, 2019 and we are on track for a successful go-live. Key remaining risks include completing testing of statutory returns and Technical Dress Rehearsal. Operational engagement has been strong throughout the implementation, GOSH is following recommendations for STS and personalization, and they are anxious and eager to see how the transition to being live goes. ","NextSteps":"Go live - April 19, 2019","AuditText":"Last updated on 3/19/2019 by Megan Du","EditLinkURL":"/Customers/Attributes/SLG/1059#attributeid=65088","CustomerSnapshotURL":"http://thor/ReportServer/Pages/ReportViewer.aspx?/Reports/Public/Implementation+Services/Customer+Snapshot\u0026Customer=1059"},"State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"},{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewSummary","Title":"Summary","Description":"Display a narrative description of this customer.","DefaultColumnID":"CustomerOverviewMainColumn","DefaultPosition":3,"Type":"Customers.Overview.Summary","StaticParameter":"","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":[],"DynamicParameterValues":[],"InitializationParameter":"","InitialData":{"__type":"\u003c\u003ef__AnonymousType99`5[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","Summary":"\u003cdiv\u003eGreat Ormond Street Hospital for Children NHS Foundation Trust (GOSH) is a tertiary care hospital in central London. They opened their doors in 1852 and their 2400 staff treat\u0026nbsp;the most specialised paediatric cases and sickest children from across the UK as well as internationally. They have one satellite office in Dubai to help support referrals from the Gulf region.\u003c/div\u003e\n\n\u003cdiv\u003e\u0026nbsp;\u003c/div\u003e\n\n\u003cdiv\u003eGOSH began their enterprise install in the fall of 2017 and is planning an April 2019 go-live across the Trust. This will be their first opportunity at an integrated patient record; they are moving some specialties from niche systems and others from paper. They are the first Epic Hosted organisation in the UK.\u003c/div\u003e\n\n\u003cdiv\u003e\u0026nbsp;\u003c/div\u003e\n\n\u003cdiv\u003eKey focus areas: research, patient portal, interoperability, specialised paediatric content and workflows\u003c/div\u003e\n","SLGID":1059,"HasEditPermission":false,"AttributeID":31433,"AuditText":"Last updated on 7/18/2018 by Megan Du"},"State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"},{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewFlags","Title":"Flags","Description":"Links to active flags for the customer.","DefaultColumnID":"CustomerOverviewMainColumn","DefaultPosition":4,"Type":"Customers.Flags","StaticParameter":"","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":["CustomerID"],"DynamicParameterValues":["499"],"InitializationParameter":"","InitialData":null,"State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"},{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewAppAlerts","Title":"App Alerts","Description":"Links to active app alerts for the customer.","DefaultColumnID":"CustomerOverviewMainColumn","DefaultPosition":5,"Type":"Customers.AppAlerts","StaticParameter":"","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":["CustomerID"],"DynamicParameterValues":["499"],"InitializationParameter":"","InitialData":null,"State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"},{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewImplementationDetails","Title":"Implementation Details","Description":"Details about the customer\u0027s installation status and ongoing plans.","DefaultColumnID":"CustomerOverviewMainColumn","DefaultPosition":6,"Type":"Customers.Overview.ISDetails","StaticParameter":"","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"DetailsBlock","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":[],"DynamicParameterValues":[],"InitializationParameter":"","InitialData":"{\"SLGID\":1059,\"InstallType\":\"Big bang (all apps)\",\"InstallSpeed\":\"Medium\",\"InstallMethodology\":\"\",\"Affiliates\":[\"N/A\"],\"Specialties\":[\"Pediatrics\",\" Pediatric Critical Care Medici\"],\"ShareContent\":[],\"Barcoding\":\"Yes\",\"DeviceIntegration\":\"Yes\",\"VoiceRecognition\":\"Yes\",\"ReferenceFor\":null,\"DoNotReferenceFor\":null}","State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"}],"CssClass":"CustomerOverviewMainColumn"},{"__type":"Epic.Guru.Gidgets.GidgetColumn, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewSidebarColumn","Gidgets":[{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewEpicContacts","Title":"Epic Contacts","Description":"Browse or search Epic contacts with a filterable list.","DefaultColumnID":"CustomerOverviewSidebarColumn","DefaultPosition":0,"Type":"Customers.Overview.EpicContacts","StaticParameter":"","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":["customerID"],"DynamicParameterValues":["499"],"InitializationParameter":"","InitialData":null,"State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"},{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewCustomerContacts","Title":"Customer Contacts","Description":"Browse or search upcoming customer trips with a filterable list.","DefaultColumnID":"CustomerOverviewSidebarColumn","DefaultPosition":1,"Type":"Customers.Overview.CustomerContacts","StaticParameter":"","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":["customerID"],"DynamicParameterValues":["499"],"InitializationParameter":"","InitialData":null,"State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"},{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewApplications","Title":"Applications","Description":"Applications contracted or installed by the customer.","DefaultColumnID":"CustomerOverviewSidebarColumn","DefaultPosition":2,"Type":"Customers.Applications.ApplicationList","StaticParameter":"Primary;Secondary","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":["Customer","filterByApps"],"DynamicParameterValues":["1059","{\"2\":true,\"26\":true,\"8\":true,\"35\":true}"],"InitializationParameter":"","InitialData":null,"State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"},{"__type":"Epic.Guru.Gidgets.Gidget, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null","ID":"CustomerOverviewUpcomingTrips","Title":"Upcoming Trips","Description":"","DefaultColumnID":"CustomerOverviewSidebarColumn","DefaultPosition":3,"Type":"Customers.Overview.UpcomingTrips","StaticParameter":"","Collapsible":true,"CssClass":"","HeaderCssClass":"","ContentCssClass":"","FooterCssClass":"","IconCssClass":"","HintID":0,"DynamicParameterKeys":["customerID"],"DynamicParameterValues":["499"],"InitializationParameter":"","InitialData":{"__type":"\u003c\u003ef__AnonymousType102`4[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Collections.Generic.List`1[[Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Epic.Guru.Utilities.ListFilter.ListFilterPreferences, SharedFunctions, Version=1.0.0.37062, Culture=neutral, PublicKeyToken=null]], Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","SLGID":1059,"UpcomingTrips":[{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":180913,"Name":"GOSH -  GO-LIVE - COMMAND CENTER (INTERNATIONAL) - APRIL 19","DepartTime":"\/Date(1555617600000)\/","ReturnTime":"\/Date(1556373600000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":180914,"Name":"GOSH -  GO-LIVE - COMMAND CENTER (US) -WEEK 1- APRIL 19","DepartTime":"\/Date(1555531200000)\/","ReturnTime":"\/Date(1556373600000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":180916,"Name":"GOSH -  GO-LIVE - COMMAND CENTER (LOCAL) - WEEK 1 - APRIL 19","DepartTime":"\/Date(1555617600000)\/","ReturnTime":"\/Date(1556326800000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":181362,"Name":"GOSH -  DEV IMMERSION (US) - APRIL 17","DepartTime":"\/Date(1555347600000)\/","ReturnTime":"\/Date(1556114400000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":181536,"Name":"GOSH -  GO-LIVE - COMMAND CENTER (US) - WEEK 2 - APRIL 29","DepartTime":"\/Date(1556384400000)\/","ReturnTime":"\/Date(1556978400000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":181582,"Name":"GOSH -  GO-LIVE - COMMAND CENTER (LOCAL) - WEEK 2 - APRIL 29","DepartTime":"\/Date(1556481600000)\/","ReturnTime":"\/Date(1556931600000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":181583,"Name":"GOSH -  GO-LIVE - COMMAND CENTER (LOCAL) - WEEK 3 - MAY 6","DepartTime":"\/Date(1557230400000)\/","ReturnTime":"\/Date(1557450000000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":182128,"Name":"GOSH -  GO-LIVE - FLOOR SUPPORT (US) - WEEK 1 - APRIL 20","DepartTime":"\/Date(1555606800000)\/","ReturnTime":"\/Date(1556373600000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":182130,"Name":"GOSH -  GO-LIVE - FLOOR SUPPORT (LOCAL) - WEEK 1 - APRIL 20","DepartTime":"\/Date(1555704000000)\/","ReturnTime":"\/Date(1556326800000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":182131,"Name":"GOSH -  GO-LIVE - FLOOR SUPPORT (US) - WEEK 2 - APRIL 29","DepartTime":"\/Date(1556384400000)\/","ReturnTime":"\/Date(1556978400000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":182132,"Name":"GOSH -  GO-LIVE - FLOOR SUPPORT (LOCAL) - WEEK 2 - APRIL 29","DepartTime":"\/Date(1556481600000)\/","ReturnTime":"\/Date(1556931600000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":182252,"Name":"GOSH -  GO-LIVE - FLOOR SUPPORT (INTL) - WEEK 1 - APRIL 20","DepartTime":"\/Date(1555704000000)\/","ReturnTime":"\/Date(1556373600000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":183758,"Name":"GOSH -  GO-LIVE - COMMAND CENTER (LOCAL) - WEEK 4 - MAY 13","DepartTime":"\/Date(1557864000000)\/","ReturnTime":"\/Date(1558141200000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":184545,"Name":"GOSH - GO-LIVE HOSTING - APRIL 17","DepartTime":"\/Date(1555531200000)\/","ReturnTime":"\/Date(1556370000000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":186199,"Name":"GOSH -  GO-LIVE - COMMAND CENTER(LOCAL) WK 2 APRIL 22","DepartTime":"\/Date(1555970400000)\/","ReturnTime":"\/Date(1556413200000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":186598,"Name":"  GOSH - (LOCAL) PLV - MAY 21","DepartTime":"\/Date(1558382400000)\/","ReturnTime":"\/Date(1558638000000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":186599,"Name":" GOSH - (LOCAL) PLV - JUNE 3","DepartTime":"\/Date(1559592000000)\/","ReturnTime":"\/Date(1559847600000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":186630,"Name":"GOSH - (LOCAL) ISSUE RES - JUNE 10","DepartTime":"\/Date(1560196800000)\/","ReturnTime":"\/Date(1560452400000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":186633,"Name":" GOSH - (LOCAL) ISSUE RES - JUNE 17","DepartTime":"\/Date(1560801600000)\/","ReturnTime":"\/Date(1561057200000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":186634,"Name":"GOSH - (LOCAL) ISSUE RES - JUNE 24","DepartTime":"\/Date(1561406400000)\/","ReturnTime":"\/Date(1561662000000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":186635,"Name":" GOSH - (LOCAL) ISSUE RES - JULY 8","DepartTime":"\/Date(1562616000000)\/","ReturnTime":"\/Date(1562871600000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true},{"__type":"Epic.Guru.Areas.Customers.Models.Overview.CustomerTrip, Epic.Guru.GuruWeb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","ID":186636,"Name":" GOSH - (LOCAL) PLV # 2 JULY 15","DepartTime":"\/Date(1563220800000)\/","ReturnTime":"\/Date(1563476400000)\/","RequestorID":"8570","RequestorName":"Melenie Treffert","RequestorIsActive":true}],"ListFilterID":"CustomerUpcomingTrips","ListFilterPreferences":null},"State":1,"Visibility":1,"Color":7,"ThemeFolder":"Red"}],"CssClass":"CustomerOverviewSidebarColumn"}],"Validated":true,"Immobile":false,"Immutable":false}]},"SaveChanges":true});
+					}
+				);
+			
+		});
+	</script>
+
+	
+<title>
+	Great Ormond Street Hospital for Children - Guru
+</title></head>
+<body id="BodyTag">
+
+<div id="body">
+	<div id="pre-header">
+		
+	</div>
+	<!-- #pre-header -->
+	<div id="header-bar">
+		<div id="guru-link">
+			<a href="/" title="Go to Guru home page">
+				<img id="GuruLogoImage" src="/images/Logos/guru-logo-32.png?v=1.0.0.37062" height="32" />
+			</a>
+		</div>
+		<!-- #guru-link -->
+		<div id="search-wrapper">
+			<div id="search" class="guru-search">
+				<form method="get" id="aceSearchForm" action='/Search.aspx' onsubmit="aceSearch_SearchWithoutAutocomplete();">
+					<span id="aceSearchLoadingIcon"></span>
+					<input type="text" accesskey="1" name="search" id="txtSearch" class="search-field guru-search__input" autocomplete="off" length="50" tabindex="0" placeholder="Search Guru..." />
+					<input id="hdnNoRedirect" name="noRedirect" type="hidden" value="1" />
+					<script type="text/javascript">
+ var contextKeys = [
+
+{name: 'All', text: 'Go to search page'},
+
+{name: 'RecommendedLinks', text: 'Go to search page'},
+
+{name: 'Customers', text: 'Go to search page'},
+
+{name: 'Rooms', text: 'Go to search page'},
+
+{name: 'Employees', text: 'Go to search page'},
+
+{name: 'EpicSearch', text: 'Go to search page'},
+
+{name: 'CodeClient', text: 'Go to Client CodeSearch'},
+
+{name: 'CodeServer', text: 'Go to Server CodeSearch'}
+];
+</script>
+<div id="search-chooser-flyout">
+    
+            <ul>
+        
+            <li class='active'><a href="#" contextkey='All'
+                class='Search-All' title='Go to search page'>
+                <span class="Icon"></span>
+                All
+            </a></li>
+        
+            <li class=''><a href="#" contextkey='RecommendedLinks'
+                class='Search-RecommendedLinks' title='Go to search page'>
+                <span class="Icon"></span>
+                Recommended Links
+            </a></li>
+        
+            <li class=''><a href="#" contextkey='Customers'
+                class='Search-Customers' title='Go to search page'>
+                <span class="Icon"></span>
+                Customers
+            </a></li>
+        
+            <li class=''><a href="#" contextkey='Rooms'
+                class='Search-Rooms' title='Go to search page'>
+                <span class="Icon"></span>
+                Rooms
+            </a></li>
+        
+            <li class=''><a href="#" contextkey='Employees'
+                class='Search-Employees' title='Go to search page'>
+                <span class="Icon"></span>
+                Employees
+            </a></li>
+        
+            <li class=''><a href="#" contextkey='EpicSearch'
+                class='Search-EpicSearch' title='Go to search page'>
+                <span class="Icon"></span>
+                Hubble
+            </a></li>
+        
+            <li class='sectionStart'><a href="#" contextkey='CodeClient'
+                class='Search-CodeClient' title='Go to Client CodeSearch'>
+                <span class="Icon"></span>
+                CodeSearch Client
+            </a></li>
+        
+            <li class=''><a href="#" contextkey='CodeServer'
+                class='Search-CodeServer' title='Go to Server CodeSearch'>
+                <span class="Icon"></span>
+                CodeSearch Server
+            </a></li>
+        
+            </ul>
+        
+</div>
+<!-- #search-chooser-flyout -->
+<div id="search-chooser" class="color-reset">
+    <span id="SearchChooserIcon">
+		<span class="guru-icon-search"></span>
+		<span>&#9662;</span>
+    </span>
+</div>
+<!-- #search-chooser -->
+<input type="hidden" id="SearchContextKey" name="searchType" value="All" />
+
+				</form>
+			</div>
+		</div>
+		<div id="header-empty-space"></div>
+		<!-- #search -->
+		<div id="header-buttons">
+			<a id="lnkHeaderProfile" title="View your profile" class="NoWrap" href="/Staff/EmployeeProfile.aspx?id=me">
+				<div class="bg-photo" style="background-image:url('/Shared/Images/StaffPhoto/id/11291');"></div> 
+				<span id="spanProfileName" class="">Ryan Smith</span></a>
+			<a id="lnkHeaderOptions" title="Explore your options" class="NoWrap" href="/Options.aspx">
+				<span class="guru-icon-gear"></span>
+				<span class="">Options</span>
+			</a>
+		</div>
+		<!-- #header-buttons -->
+	</div>
+	<!-- #header-bar -->
+	
+	<div id="MainMenu" class="mainmenu-wrapper z-depth-1">
+	
+		<div class="mainmenu" tabindex="5"></div>
+	
+</div>
+	<!-- .mainmenu -->
+
+	<div class="submenu-wrapper">
+		<div class="submenu"></div>
+	</div>
+	<!-- .submenu -->
+	
+
+	
+		
+		<div id="content">
+			
+	
+
+
+<div id="Cust_Wrapper" class="bg-light tbl max-width">
+	<div class="tbl-row">
+		<div class="tbl-col va-middle ta-center">
+			<div id="Cust_Header_Logo">
+				
+					<img style="height: 48px; width: 48px;" alt="customer logo" src="data:image/jpg;base64, iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjEuNBNAaMQAAAcNSURBVFhH7Vd7bFvVGU/sKtIEiNFN+2MSCCQYbNqkSS2i2sazqI9pE0Ns0mhyb7I+KOtaHoUWSlsSutI45VGIaNyGsD5gYy2FQlPHvo7bOonjRx52nDZunDpOHcWPxHk4iRM/7j03/M69Tin3H7sTmvMHp7+enO+c73znd7/vOw8XzC2w8j2hbOV7QtnKjRASRVGqpf8iwR+5l/6VemmNbiL10yFZA93zrewlV0ItvSMrNLYVmraVVdbVVdYVVfaVGseqKhuwUoPauoqO2lcBGKqyo716v/3JA44/vg3R8V/bYMZQtpIroS86giqGY7TOaDwZjqdu39yoYvUNXcFLkXjZoY5oPLW2rkvFchuPdI/Ek3896Hz9lCc4mUgJJM4Lu071VNZfyRjKVnIm1B4sZA2HGgeISIgorKtz/6BUF0vwnDukPTeASC0rb1YxhqMtASi8/HE3TwR9V/iJA22lh51LdrZU1vdnDGUrN0AIHnJdHe8Lx8Zmkl+0BX+5owlr//N0b4d/NE3Ev9V2Pv1Bp294ejyeLj3cDtIO3/ije1vVrAG+3FfvyxjKVnInFP7huoZZXjhmCfzHNjgaTz5T6xRFofgDR4Insyk+PJkYmU4SQi54hm9ea6g9748n0zxJf9IaUJUaNPV9GUPZyg146OE3bXDJc8cvrqnpRKNnKJYi5E/v2kWRHGz0LWIaVlRasZ/2n/WqWCO8cvtmY2B0Kk3IbRv0mnpvxlC2kiuh0+3Bl/59Cev9bo/lR383zfL8HElfGZ5+4bgbhMpqnYWM4dUTPdje6w531ph8m45erPjcM51MeyNTRaxec+a79hAIVdb3tfvHblmLnOCONw+4AhMHdN6K05e7AuM/336hkOH267yuwPjjmlabLzo0MdsfjZ+wD967zYyhyu/cQ239Y2u0rpKaruKaLtqgcJdoO9FYo3Wjs7jGXVLjLNZ2SzU0JR1JubjGdaYzmDGUreRKSD6FpVpuy4cvFVHJAh35ZigjS8OyXk4lV0L/t1Lw9EHngkKBih5cCwgFhax+QaGgAKQWFJRy3qGU8w6lLIHGktbIsgY1o1cxDSoGAaY9tJ/hcFWpSvXqEp2aoSINP8PNz6UipqgZHZKUGoG+BFkBpnDWF0r3nWzwW1DKEmDx/t3NuJI6ro5Fpug13huKHWnyq5kGjN62kdtz2tsdGB+ZTgRGp0/ahx6ssMjfcPN6bsdJT5svilmRqVmHb2RZuWXpbovVG231Rn+9yyIZNx5tutraF32r/nIBa5RX/AZKmcXXG7Z/eikt8OKcgNN5Js2PTCWTgtAXmcQTbPHGRvfgOC5UQSR4PSYEqpMShL9Uty9idGdcIYhkThifTeEZmRbJ45XWx/Y56Fktio/stWMJXMPOgVH0fNUR+vbSEpQya3hoj5XHq1AklyOTeBffVHYWT4vF6w3LNTaEb++XvRgTCL++1rWI1d31vOlyMIbXSCg2+7MXTTzhMbHaeKWIxSzdHVsaFz9rnCdEHs4Q4m6AEDz/oTlA5kR89C+2nYdLaA4hJ1i9muHQ7glNwnS7f/RaPpUd6pQOfbFY24GXK5kj7sGxp95vX7wRKYgs4UAIBgVReKauC+FburvFE5yAkRwJcc3eUXxO9+CElMic1uQfHJsJjM1cHZtZVm6OpxAj8SOzf17fsGRXq0RobkOd60jLIFZCyPCEjaf4j5oGbt1ACaFThhQ6KKCds4fMnqgo8p5QjJ7ljL7G5Ec4aGaI5ME3WmJJHr/JjrUE5vW5B8otMqGyWhfeYiXaDr0rhMeuTKvugv/RSkoI0085hqo5fzXXPzw5kzshw3sGHyYjZ39bYcZeVbO6pTvN6AEeqLC09Y9iGW9ksqhUJ+0Abusn3TRF5sTfVLTS4OIgYLk7thi94SnwQL18n02ASwh56E07PQVYJDW+OWdC977cNJVIg1AwNrP2Q+fdWy/8+YAdvobJZW9YNh9z4yWPhMCH3rP13B/etkenZzF0cSgG97xyoueRvbY7nz+3ZKflSgTZJjb3jizfZ6cR+t92GQghT3//ljU6nZC9IuCftOkoofLWojLDqbYhIvLgRAi2o4Ch4anE/a83g9BEEmGSZok86kSaX73f+lglCKFTyOwy6iGapmfag9cvnYFSloA5P3m2ccvHbvwEPt8TMXaHP7UO7Tzp+fEmE0bVpfqnqjuOWwLneiJnneHXPvP+9B9GfHdRmX7XZz0nHUMmT1jXFXpH1/erHWYE6L7tTfgxqTX137PNTI0zHEwdMg1s+lc3gn5t0QyUsgTqJ3obYHLmxqAiBT2pr+uRGgymwK6swMl3iDSE+4Fao3cF1bneOJ0FBcy61p+BUs47lHLeoZTzDqWcdyjlvEMp5x1KOe9QynmHUs47lHLeoZTzDqWcdyjl/II1fA1QALtFfyz4XQAAAABJRU5ErkJggg==" title="" />
+				
+			</div>
+		</div>
+		<div class="tbl-col va-middle">
+			<div id="Cust_Header">
+				
+
+<div id="Cust_Header_Content" class="ClearNoDiv">   
+	<div id="Cust_Header_Headline">
+		<span>
+			<span id="Cust_Header_Name" class="theme-accent-text">Great Ormond Street Hospital for Children</span>
+			<span id="Cust_Header_Details"> <a title="View on Google Maps" class="theme-accent-text" href="http://maps.google.com/maps?f=q&hl=en&geocode=&time=&date=&ttype=&q=London, England, United Kingdom&ie=UTF8&spn=18.864936,15.380859&t=p&z=6&iwloc=addr&om=0" target="_blank">London, England, United Kingdom</a> </span>
+			
+				&nbsp;<img vertical-align: sub;" src="/images/FlagIcons/blank.gif" title="United Kingdom" alt="United Kingdom" class="flag--sm flag-gb" />
+			
+				&nbsp;<img height="24" style="vertical-align: sub;" src="/images/EpicHostedLarge.png?v=1.0.0.37062" title="Hosted Organization" />
+			
+		</span>
+	</div>
+	<div class="Cust_Header_Quicklinks">
+		<div class="dropdown">
+			<span class="dropdown-text">Links &#9662;</span><span class="dropdown-icon"></span>
+			<ul>
+				 <li><a href="http://wiki/main/Grea_Ormond_Street_Hospital_for_Children/Bulletin_Board" class="BulletinBoard Cust_Header_Quicklink"><span class="Icon"></span> Bulletin Board</a></li> 
+				<li><a href="https://dashboards.epic.com/benchmarking/overview?id=1059&amp;isSlg=1" class="ThorReport Cust_Header_Quicklink"><span class="Icon"></span> Cogito Benchmarking</a></li>
+				<li><a href="http://execpacket.epic.com/Customer/1059" class="Report Cust_Header_Quicklink"><span class="Icon"></span> Exec Packets</a></li>
+				<li><a href="/Customers/FileAccess/SLG/1059" class="FileAccessRequest Cust_Header_Quicklink"><span class="Icon"></span> File Access</a></li>
+				
+				<li><a href="file://///epic.com/files/docs/ADMIN/MailingList" class="Link Cust_Header_Quicklink"><span class="Icon"></span> Mailing Lists</a></li>
+				
+				<li><a href="http://teamportal/sites/ts/quarterlysummaryreports/Customers/Forms/AllItems.aspx?View={47A1F550-7F79-4EB4-B537-A8CE84948E12}&FilterField1=SLG_x0020_ID&FilterValue1=1059.000000000000&FilterField2=Status&FilterValue2=Sent%20to%20CEO " class="Reports Cust_Header_Quicklink"><span class="Icon"></span> Quarterly Reports</a></li>
+				 <li><a href="https://sherlock.epic.com/default.aspx?view=slg/search#cid=1059" class="Sherlock Cust_Header_Quicklink"><span class="Icon"></span> Sherlock</a></li> 
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+			</div> <!-- #Cust_Header -->
+		</div>
+	</div>
+	<div class="tbl-row">
+		<div class="tbl-col va-top" id="Cust_Navigation">
+			
+<ul>
+	<li class="Overview current bg-white">
+		<a href="/Customers/Overview/SLG/1059"><div class="NavIcon"><img src="/images/SVG/search-chart.svg" height="32" /></div>Overview</a>
+	</li>
+	<li class="DashboardReports ">
+		<a href="/Customers/DashboardReports/SLG/1059">Dashboard</a>
+	</li>
+	<li class="EpicStaff ">
+		<a href="/Customers/Contacts/Epic/SLG/1059">Epic Staff</a>
+	</li>
+	<li class="CustomerStaff ">
+		<a href="/Customers/Contacts/Customer/SLG/1059">Customer Staff</a>
+	</li>
+	<li class="ApplicationList ">
+		<a href="/Customers/Applications/SLG/1059">Application List</a>
+	</li>
+	<li class="ApplicationDetails ">
+		<a href="/Customers/ApplicationDetails/SLG/1059">App Details</a>
+	</li>
+	<li class="Dates ">
+		<a href="/Customers/Dates/SLG/1059">Sonar</a>
+	</li>
+	<li class="Attributes ">
+		<a href="/Customers/Attributes/SLG/1059">Attributes</a>
+	</li>
+	<li class="Polaris ">
+		<a href="/Customers/Polaris/SLG/1059">Polaris</a>
+	</li>
+	<li class="TSWorkbench ">
+		<a href="/Customers/Technical/SLG/1059">Technical</a>
+	</li>
+	<li class="Agreements ">
+		<a href="/Customers/Agreements/SLG/1059">Agreements</a>
+	</li>
+	<li class="Notes ">
+		<a href="/Customers/Notes/SLG/1059">Notes</a>
+	</li>
+</ul>
+
+		</div> <!-- #Cust_Navigation -->
+		<div id="Cust_Content_Wrapper" class="tbl-col va-top IFrameEmbedContainertheme">
+			<div id="Cust_Content" class="bg-white">
+			
+			
+	
+
+<ul id="CustomerOverviewMainColumn" class="gidget-column CustomerOverviewMainColumn" data-gidget-group="CustomerOverviewMainColumnGroup" data-gidget-immobile="False" data-gidget-immutable="False" >
+
+</ul>
+
+<ul id="CustomerOverviewSidebarColumn" class="gidget-column CustomerOverviewSidebarColumn" data-gidget-group="CustomerOverviewMainColumnGroup" data-gidget-immobile="False" data-gidget-immutable="False" >
+
+</ul><script type="text/javascript" src="/Include/Scripts/dateformat.js?v=1.0.0.37062"></script>
+<script type="text/javascript" src="/Areas/Customers/Scripts/Hospital/OverviewGidget.js?v=1.0.0.37062"></script>
+<link rel="stylesheet" href="/Areas/Customers/Content/Hospital/OverviewGidget.css?v=1.0.0.37062" type="text/css" />
+
+<script id="tmplHospitalOverviewGidget" type="text/x-jQuery-tmpl">
+	<div class="gidget-stuff">
+		{{if hasEditPermission}}
+			<div class="ClearNoDiv">
+				<div class="FloatRight">
+					<a id="lnkHospitalUpdate">
+						<span class="Edit"><span class="Icon"></span></span>
+						<span>Update Hospital Info</span>
+					</a>
+				</div>
+			</div>
+		{{/if}}
+		
+		<div id="divHospitalDisplay"></div>
+
+	</div>
+</script>
+
+<script id="tmplHospitalHeader" type="text/x-jQuery-tmpl">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th class="min-width NoWrap">On Epic?</th>
+			<th class="min-width NoWrap">Go-Live</th>
+			<th>Licensed Beds</th>
+			<th>Staffed Beds</th>
+			<th>HIMSS Record</th>
+			<th>Hospital Type</th>
+			<th>Location</th>
+			<th>Hide?</th>
+			<th></th>
+		</tr>
+	</thead>    
+</script>
+
+<script id="tmplHospitalRow" type="text/x-jquery-tmpl">
+	{{each(hIndex, hospital) Hospitals}}
+	<tr class="hospital">
+		<td>
+			<textarea name="hospitalName">${hospital.Name}</textarea>
+			<input type="hidden" name="hospitalID" value="${hospital.ID}" />
+		</td>
+		<td class="min-width">
+			<div class="hospital-onEpic">
+				<select name="onEpic" data-placeholder="Is On Epic?" data-disable-search="true" data-width="75px" required>
+					{{each(tIndex, option) $data.OnEpicOptions}}
+						<option value="${option.ID}" {{if hospital.IsOnEpic==option.ID}}selected{{/if}}>${option.Value}</option>
+					{{/each}}
+				</select>
+			</div>
+
+		</td>
+		<td>
+			<input class="go-live-date" datatype="data" value="${ hospital.GoLiveDate }" />
+		</td>
+		<td>
+			<input class="num-licensed-beds beds" data-range="natural-numbers" value="{{if hospital.NumLicensedBeds > 0}}${hospital.NumLicensedBeds}{{/if}}" />
+		</td>
+		<td>
+			<input class="num-staffed-beds beds" data-range="natural-numbers" value="{{if hospital.NumStaffedBeds > 0}}${hospital.NumStaffedBeds}{{/if}}" />
+		</td>
+		<td>
+			<div class="hospital-himss-edit">
+				<select name="himss" class="chosen" data-placeholder="Link to HIMSS record" data-width="200px">
+						<option value=""></option>
+					{{each(eIndex, entity) $data.HAEntities}}
+						<option value="${entity.UniqueId}" {{if hospital.HIMSSAnalyticsUniqueID == entity.UniqueId}}selected{{/if}}>${entity.Name}</option>
+					{{/each}}
+				</select>
+			</div>
+		</td>
+		<td>
+			<div class="hospital-types-edit">
+				<select name="types" class="chosen" data-placeholder="Select hospital types..." data-width="175px" multiple>
+					{{each(tIndex, type) $data.HospitalTypes}}
+						<option value="${type.ID}" {{if hospital.HospitalTypesIdx[type.ID]}}selected{{/if}} title="${type.Description}">${type.Name}</option>
+					{{/each}}
+				</select>
+			</div>
+			
+		</td>
+		<td>
+			<div class="hospital-location-edit">
+			</div>
+		</td>
+		<td class="min-width">
+			<input type="checkbox" name="isDeleted" {{if hospital.IsDeleted}}checked{{/if}} />
+		</td>
+		<td>
+			<button data-action="delete" title="Delete unsaved hospital" class="{{if hospital.ID}}visibility-hidden{{/if}}">
+				<span class="btn-icon">&#10006;</span>
+			</button>
+		</td>
+	</tr>
+	{{/each}}
+</script>
+			<div class="clear"></div>		
+		</div>
+		</div> <!-- #Cust_Content -->
+	</div>
+</div> <!-- #Cust_Content_Wrapper -->
+<div class="clear"></div>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function(event) {
+		$('body').addClass('bg-light');
+	});
+</script>
+
+
+		</div>
+	
+
+	<div id="footer-wrapper">
+		<div id="footer"></div>
+	</div>
+</div>
+<!-- #body -->
+
+<div id='hovercard' data-hovercard-visibility='donteverhide' ></div>
+
+<div class="toast" id="toast" style="display: none;"></div>
+
+</body>
+</html>

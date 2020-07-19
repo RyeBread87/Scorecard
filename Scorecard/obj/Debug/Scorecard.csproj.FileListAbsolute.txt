@@ -1,0 +1,17 @@
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\bin\Debug\Scorecard.exe.config
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\bin\Debug\Scorecard.exe
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\bin\Debug\Scorecard.pdb
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\bin\Debug\HtmlAgilityPack.dll
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\bin\Debug\HtmlAgilityPack.xml
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\obj\Debug\Scorecard.csprojResolveAssemblyReference.cache
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\obj\Debug\Scorecard.Properties.Resources.resources
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\obj\Debug\scorecard.scorecard_form.resources
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\obj\Debug\Scorecard.csproj.GenerateResource.Cache
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\obj\Debug\Scorecard.exe
+C:\Users\smith\OneDrive\Software\Scorecard\Scorecard\obj\Debug\Scorecard.pdb
+C:\Users\smith\Documents\Visual Studio 2015\Projects\Scorecard\Scorecard\bin\Debug\Scorecard.exe.config
+C:\Users\smith\Documents\Visual Studio 2015\Projects\Scorecard\Scorecard\obj\Debug\Scorecard.exe
+C:\Users\smith\Documents\Visual Studio 2015\Projects\Scorecard\Scorecard\obj\Debug\Scorecard.pdb
